@@ -1,4 +1,4 @@
-CC = cc
+CC = gcc
 CFLAGS = -Wall -Wextra -Werror -g
 SRCS = main.c data_init.c utils_functions.c routine.c data_checker.c death_flag.c
 OBJ = $(SRCS:.c=.o)
